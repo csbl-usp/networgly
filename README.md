@@ -9,7 +9,7 @@ This library is still at early development stage
 ### Usage
 ```js
 import createGraph from 'ngraph.graph';
-import createNetworgly from 'networgly';
+import networgly from 'networgly';
 
 // initialize graph object
 var graph = createGraph();
@@ -19,7 +19,7 @@ graph.addLink(2, 3);)
 // create or select canvas element
 var canvas = document.createElement('canvas');
 
-var vis = createNetworkgly(graph, {
+var vis = networgly(graph, {
     canvas: canvas  
 })
 
