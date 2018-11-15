@@ -8,7 +8,7 @@ This library is still at early development stage
 
 ### Usage
 ```js
-import createGraph from 'ngraph.graph';'
+import createGraph from 'ngraph.graph';
 import createNetworgly from 'networgly';
 
 // initialize graph object
